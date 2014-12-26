@@ -4,7 +4,7 @@ Xertz
 ```c++
 import "stdio.h"
 
-int main
+int main:
     printf("Hello World!)
 ```
 
@@ -21,28 +21,28 @@ import "iostream"
 
 from std import *
 
-int main
-   a, b, result : float
-   operation : char
+int main:
+   float a, b, result
+   char operation
  
    # Get numbers and mathematical operator from user input
    cin >> a >> operation >> b
 
    # Character constants are enclosed in single quotes
-   switch operation
-       case '+'
+   switch operation:
+       case '+':
              result = a + b
              break
-       case '-'
+       case '-':
              result = a - b
              break
-       case '*'
+       case '*':
              result = a * b
              break
-       case '/'
+       case '/':
              result = a / b
              break
-       else
+       else:
              cout << "Invalid operation. Program terminated." << endl
              return -1
 

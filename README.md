@@ -1,8 +1,9 @@
 Xertz
 =====
 
-import "stdio.h"
 ```c++
+import "stdio.h"
+
 int main
     printf("Hello World!)
 ```
@@ -17,6 +18,7 @@ int main {
 
 ```c++
 import "iostream"
+
 from std import *
 
 int main

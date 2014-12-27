@@ -159,7 +159,7 @@ type u_int = uint
 ````
 C++
 ```c++
-
+using u_int = unsigned int;
 ```
 
 #### Fundamental Types
@@ -170,12 +170,13 @@ oi|df
 #### Pointers
 Xertz
 ```c++
-int *p = None
-
+int ptr(a) = None
+int ptr(p) = addrptr(a)
+valptr(p).x = 3
 ````
 C++
 ```c++
-int *p = nullptr;
+int *a = nullptr;
 int *p = &a;
 p->x = 3;
 

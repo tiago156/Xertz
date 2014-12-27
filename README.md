@@ -152,34 +152,43 @@ public class Person {
 }
 ```
 
-#### Array
+#### Typedef
 Xertz
 ```c++
-
+type u_int = uint
 ````
 C++
 ```c++
 
 ```
 
-#### Array
+#### Fundamental Types
+Xertz|C++
+---|---
+oi|df
+
+#### Pointers
 Xertz
 ```c++
+int *p = None
 
 ````
 C++
 ```c++
+int *p = nullptr;
+int *p = &a;
+p->x = 3;
 
 ```
 
-#### Array
+#### Null
 Xertz
 ```c++
-
+int *p = None
 ````
 C++
 ```c++
-
+int *p = nullptr;
 ```
 
 

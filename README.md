@@ -80,10 +80,12 @@ enum Color:
     Red = 1
     Blue = 2
     Black = 3
+    
 enum Coord: 
     X = 'x'
     Y = 'y'
     Z = 'z'
+    
 enum Options:
     Option1
     Option2
@@ -96,11 +98,13 @@ enum Color {
     Blue = 2,
     Black = 3
 };
+
 enum Coord {
     X = 'x',
     Y = 'y',
     Z = 'z'
 };
+
 enum Options {
     Option1,
     Option2,
@@ -112,7 +116,7 @@ enum Options {
 Xertz
 ```c++
 @public
-class Person:
+class Animal:
     ctor:
         pass
     @public
@@ -130,6 +134,10 @@ class Person:
         string name;
     private:
         int internal;
+        
+@public
+class Employee(Person):
+
 ````
 C++
 ```c++
